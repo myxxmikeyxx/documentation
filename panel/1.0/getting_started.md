@@ -53,6 +53,9 @@ operating system's package manager to determine the correct packages to install.
 # Add "add-apt-repository" command
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 
+
+#### change the bleow to this, the below did not work on latest debian
+https://askubuntu.com/questions/1393381/unable-to-add-ondrej-repository-apt-in-ubuntu-20-04
 # Add additional repositories for PHP, Redis, and MariaDB
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 
